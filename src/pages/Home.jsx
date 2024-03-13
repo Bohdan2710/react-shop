@@ -19,7 +19,7 @@ function Home({
         <div className="container">
           <div className="slider__wrap">
             <div className="slider__img_logo">
-              <img src="/img/logo-slider.png" alt="img-logo-slider" />
+              <img src="img/logo-slider.png" alt="img-logo-slider" />
             </div>
             <div className="slider__content">
               <h2 className="slider__content_title">
