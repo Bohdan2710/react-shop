@@ -145,7 +145,7 @@ function App() {
         <Header items={items} onClickCart={setTrueCartOpened} />
         <Routes>
           <Route
-            path=""
+            path="react-shop/"
             element={
               <Home
                 items={items}
@@ -161,8 +161,8 @@ function App() {
             exact
           />
 
-          <Route path="favorites" element={<Favorites />} exact />
-          <Route path="orders" element={<Orders />} exact />
+          <Route path="react-shop/favorites" element={<Favorites />} exact />
+          <Route path="react-shop/orders" element={<Orders />} exact />
         </Routes>
       </div>
     </AppContext.Provider>
