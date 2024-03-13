@@ -9,7 +9,7 @@ function Header({ onClickCart }) {
   return (
     <header className="header">
       <div className="container header__container">
-        <Link to="/" className="header__logo">
+        <Link to="react-shop/" className="header__logo">
           Shop sneakers
         </Link>
         <nav className="header__nav_list">
@@ -49,7 +49,7 @@ function Header({ onClickCart }) {
               </a>
             </li>
             <li>
-              <Link to="/favorites" className="nav_list__choosing">
+              <Link to="react-shop/favorites" className="nav_list__choosing">
                 <svg
                   width="19"
                   height="17"
@@ -72,7 +72,7 @@ function Header({ onClickCart }) {
               </Link>
             </li>
             <li>
-              <Link to="/orders" className="nav_list__profile">
+              <Link to="react-shop/orders" className="nav_list__profile">
                 <svg
                   width="18"
                   height="18"
