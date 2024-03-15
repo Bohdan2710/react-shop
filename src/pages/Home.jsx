@@ -15,7 +15,7 @@ function Home({
 
   return (
     <>
-      <section className="slider">
+      {/* <section className="slider">
         <div className="container">
           <div className="slider__wrap">
             <div className="slider__img_logo">
@@ -31,7 +31,7 @@ function Home({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="products">
         <div className="container products__container">
           <div className="products__wrapper jc_sb">
